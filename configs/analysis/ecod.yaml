@@ -1,0 +1,27 @@
+# loghist:
+#     _target_: src.visuals.loghist
+#     dataset: ???
+#     alpha: 1
+    
+# outlier:
+#     _target_: src.explain.ECOD_outliers
+#     model: ???
+#     query_string: '@labels==@pred_train & @labels==1' 
+#     n_plots: 2
+
+# statistics_ecod:
+#     _target_: src.explain.descriptive_stat_threshold
+#     model: ???
+#     dataset: ???
+    
+shaptotal:
+    _target_: src.explain.shap_importance
+    dataset: ???
+    model: ???
+
+shapswarm:
+    _target_: src.explain.shap_beeswarm
+    dataset: ???
+    model: ???
+    
+        

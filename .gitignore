@@ -1,0 +1,32 @@
+#virtual environment
+env_mlot
+
+#data folder
+#Data
+#Data/*
+#Data/nprobe
+
+#picture outputs
+*.png
+
+#pickle files
+*.pkl
+
+#cache
+__pycache__
+*/__pycache__
+
+#notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+#outputs hydra
+outputs
+multirun
+
+#top level cache
+cache
+.dir_latest_run
+
+#debug notebook
+debug.ipynb

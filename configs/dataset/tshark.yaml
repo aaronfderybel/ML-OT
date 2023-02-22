@@ -1,0 +1,4 @@
+_target_: src.datasets.tshark.TsharkData
+data_path: 'Data/tshark/scenario1'
+classification_type: 'binary'
+test_size: 0.3

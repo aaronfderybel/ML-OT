@@ -1,0 +1,6 @@
+_target_: src.models.anomaly.IsolationForest
+data: ???
+verbose: 2
+n_estimators: 100
+max_samples: 'auto'
+max_features: 1.0

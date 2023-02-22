@@ -1,0 +1,13 @@
+XGB_feat:
+    _target_: src.explain.xgb_importance
+    model: ???
+
+shaptotal:
+    _target_: src.explain.shap_importance
+    dataset: ???
+    model: ???
+
+shapswarm:
+    _target_: src.explain.shap_beeswarm
+    dataset: ???
+    model: ???

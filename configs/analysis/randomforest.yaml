@@ -1,0 +1,18 @@
+# RF_feat:
+#     _target_: src.explain.tree_importance
+#     model: ???
+
+# loghist:
+#     _target_: src.visuals.loghist
+#     dataset: ???
+#     alpha: 0.5
+
+shaptotal:
+    _target_: src.explain.shap_importance
+    dataset: ???
+    model: ???
+
+shapswarm:
+    _target_: src.explain.shap_beeswarm
+    dataset: ???
+    model: ???
