@@ -1,0 +1,2 @@
+_target_: src.models.anomaly.EcodModel
+n_jobs: 1

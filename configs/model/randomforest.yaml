@@ -1,0 +1,9 @@
+_target_: src.models.classification.RandomForest
+verbose: 0
+n_estimators: 10
+criterion: "gini"
+max_depth: null
+max_features: "sqrt"
+max_leaf_nodes: null
+n_jobs: null
+class_weight: null

@@ -1,0 +1,20 @@
+statistics_outlier:
+    _target_: src.explain.descriptive_stat_threshold
+    dataset: ???
+    model: ???
+    
+
+RF_feat:
+    _target_: src.explain.tree_importance
+    dataset: ???
+    model: ???
+
+shaptotal:
+    _target_: src.explain.shap_importance
+    dataset: ???
+    model: ???
+
+shapswarm:
+    _target_: src.explain.shap_beeswarm
+    dataset: ???
+    model: ???

@@ -1,0 +1,5 @@
+_target_: src.datasets.nprobe.NprobeData
+data_path: 'Data/nprobe/NF-UNSW-NB15.csv'
+label_type: 'binary'
+test_size: 0.3
+shuffle: True

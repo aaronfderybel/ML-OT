@@ -1,0 +1,31 @@
+_target_: hydra_plugins.hydra_nevergrad_sweeper.nevergrad_sweeper.NevergradSweeper
+optim:
+    optimizer: NGOpt
+    budget: 5
+    num_workers: 1
+    noisy: false
+    maximize: True
+    seed: null
+    max_failure_rate: 0.0
+    
+parametrization:
+    model : randomforest
+    model.n_estimators:
+        lower: 10
+        upper: 150
+        integer: True
+
+# parametrization:
+#     model : XGB
+#     model.max_depth:
+#         lower: 5
+#         upper: 50
+#         integer: True
+        
+# parametrization:
+#     model : isolationforest
+#     model.n_estimators:
+#         lower: 10
+#         upper: 100
+#         integer: True
+    

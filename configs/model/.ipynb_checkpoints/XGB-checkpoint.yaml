@@ -1,0 +1,19 @@
+_target_: src.models.classification.Xgb
+#global configs
+tree_method: 'gpu_hist'
+verbose: True
+#for all parameters see: https://xgboost.readthedocs.io/en/stable/parameter.html
+#for tutorial on tuning xgb parameters https://xgboost.readthedocs.io/en/stable/tutorials/param_tuning.html
+#hyperparameters
+#control overfitting->model complexity
+max_depth: 6
+min_split_loss: 0
+min_child_weight: 1
+#control overfitting->robust training
+subsample: 1
+colsample_bytree: 1
+learning_rate: 0.3
+#other
+early_stopping_rounds: 10
+
+
